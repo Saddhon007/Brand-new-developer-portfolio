@@ -1,4 +1,82 @@
-*{
-margin: 0;
-padding:0;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: open sans;
+}
+.headerMain {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    overflow: hidden;
+}
+
+.navigationBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.navigationBar h2{
+   font-size: 50px;
+}
+.navigationBar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navigationBar a{
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+   margin-right: 40px;
+   text-transform: uppercase;
+
+}
+.uniqueStyle{
+    color:#FD6E0A;
+}
+#hireMeBtn{
+    background-color: #FD6E0A;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size:20px;
+    font-weight: bold;
+    color: white;
+}
+#hireMeBtn:hover{
+  background-color: red;
+  cursor: pointer;
+}
+.informationWraper {
+    display: flex;
+    justify-content: space-between;
+}
+div#leftContnet {
+    margin: auto 0px;
+}
+#DevName{
+    font-size: 60px;
+}
+.headerContent {
+    margin: 0px 230px;
+}
+button.btnPrimary {
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background:#FD6E0A;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.BioInfomation{
+    margin-bottom: 18px;
+}
+img{
+    bottom: 0px;
 }
