@@ -3,6 +3,7 @@
     padding: 0;
     font-family: open sans;
 }
+
 .headerMain {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
@@ -19,64 +20,140 @@
     margin-bottom: 60px;
 }
 
-.navigationBar h2{
-   font-size: 50px;
+.navigationBar h2 {
+    font-size: 50px;
 }
-.navigationBar ul{
+
+.navigationBar ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
-.navigationBar a{
-   text-decoration: none;
-   font-size: 18px;
-   font-weight: bold;
-   margin-right: 40px;
-   text-transform: uppercase;
+
+.navigationBar a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 40px;
+    text-transform: uppercase;
 
 }
-.uniqueStyle{
-    color:#FD6E0A;
+
+.uniqueStyle {
+    color: #FD6E0A;
 }
-#hireMeBtn{
+
+#hireMeBtn {
     background-color: #FD6E0A;
     padding: 15px 30px;
     border-radius: 5px;
     border: none;
-    font-size:20px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
 }
-#hireMeBtn:hover{
-  background-color: red;
-  cursor: pointer;
+
+#hireMeBtn:hover {
+    background-color: red;
+    cursor: pointer;
 }
+
 .informationWraper {
     display: flex;
     justify-content: space-between;
 }
+
 div#leftContnet {
     margin: auto 0px;
 }
-#DevName{
+
+#DevName {
     font-size: 60px;
 }
+
 .headerContent {
     margin: 0px 230px;
 }
+
 button.btnPrimary {
     padding: 20px 40px;
     font-size: 20px;
     font-weight: bold;
     color: white;
-    background:#FD6E0A;
+    background: #FD6E0A;
     border: none;
     border-radius: 5px;
     margin-right: 20px;
 }
-.BioInfomation{
+
+.BioInfomation {
     margin-bottom: 18px;
 }
-img{
-    bottom: 0px;
+
+.aboutDecription {
+    margin-bottom: 18px;
+    font-size: 20px;
+    color: #7c7878;
+}
+
+.aboutTitle {
+    margin-bottom: 30px;
+}
+
+.aboutSection {
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    text-align: center;
+}
+
+.aboutContent {
+    padding: 100px 180px;
+}
+
+.aboutBio {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.bioContent {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.bioContent h6 {
+    font-size: 20px;
+    color: #7c7878;
+
+}
+.aboutActivites {
+
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.activitiseTitle {
+    padding: 100px 180px;
+    text-align: center;
+}
+
+.allExperience {
+    padding: 38px;
+    width: 25%;
+    border-radius:5px;
+    box-shadow: 0px 1px 22px 4px #efefef;
+}
+.allExperience img{
+    margin-bottom:40px;
+}
+.allExperience h2 {
+    margin-bottom:30px;
+}
+.cardWraper {
+    display: flex;
+    gap: 30px;
+    height: 450px;
 }
